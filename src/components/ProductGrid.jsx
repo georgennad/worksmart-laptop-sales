@@ -13,9 +13,9 @@ const products = [
 export default function ProductGrid() {
   return (
     <section className="px-6 lg:px-12 py-12 lg:py-24">
-      <div className="flex flex-col lg:flex-row justify-between items-end mb-12 gap-6">
+      <div className="flex flex-row justify-between items-end mb-12 gap-4">
         <div>
-          <h2 className="text-2xl lg:text-3xl font-bold text-brand-dark uppercase tracking-wide mb-2">Explore<br/>Versatility</h2>
+          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-brand-dark uppercase tracking-wide mb-2">Explore<br className="md:hidden" /> Versatility</h2>
           <div className="w-12 h-0.5 bg-brand-purple"></div>
         </div>
         

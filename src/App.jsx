@@ -13,6 +13,7 @@ import CTASection from './components/CTASection';
 import Footer from './components/Footer';
 import OrderModal from './components/OrderModal';
 import ThankYou from './components/ThankYou';
+import StickyCTA from './components/StickyCTA';
 
 function Home() {
   const [isOrderModalOpen, setIsOrderModalOpen] = useState(false);
@@ -33,6 +34,7 @@ function Home() {
       <Testimonials />
       <FAQSection />
       <CTASection onOrderClick={handleOrderClick} />
+      <StickyCTA onOrderClick={handleOrderClick} />
       <Footer />
       
       <OrderModal 
