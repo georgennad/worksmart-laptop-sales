@@ -1,5 +1,5 @@
 import { motion, AnimatePresence } from 'framer-motion';
-import { ArrowRight, ShoppingCart } from '@phosphor-icons/react';
+import { ShoppingCart } from '@phosphor-icons/react';
 import { useState, useEffect } from 'react';
 
 export default function StickyCTA({ onOrderClick }) {

@@ -1,10 +1,8 @@
 import { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, WhatsappLogo, CreditCard, LockKey } from '@phosphor-icons/react';
 
 export default function OrderModal({ isOpen, onClose }) {
-  const navigate = useNavigate();
   const [formData, setFormData] = useState({
     name: '',
     phone: '',
