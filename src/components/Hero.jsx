@@ -77,12 +77,11 @@ export default function Hero({ onOrderClick }) {
           >
             <div className="w-full aspect-video bg-brand-dark flex flex-col items-center justify-center relative">
               <iframe 
-                className="absolute inset-0 w-full h-full"
-                src="https://www.youtube.com/embed/vGcUHHZfgQA?start=21&rel=0" 
+                className="absolute inset-0 w-full h-full scale-[1.35] pointer-events-none"
+                src="https://www.youtube.com/embed/vGcUHHZfgQA?start=21&autoplay=1&mute=1&loop=1&playlist=vGcUHHZfgQA&controls=0&modestbranding=1&playsinline=1&rel=0&iv_load_policy=3" 
                 title="Dell 2-in-1 Chromebook" 
                 frameBorder="0" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowFullScreen
               ></iframe>
             </div>
           </motion.div>
